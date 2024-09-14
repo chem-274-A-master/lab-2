@@ -1,0 +1,14 @@
+name: chem274A_lab2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12  #
+  - numpy
+  - matplotlib  
+  - ase
+  - pandas
+  - mdtraj
+  - mdanalysis
+  - pip
+  - pip:
+      - nglview  
