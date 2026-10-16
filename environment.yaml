@@ -10,5 +10,7 @@ dependencies:
   - mdtraj
   - mdanalysis
   - pip
+  # nglview 3.x imports pkg_resources, which newer setuptools releases removed.
+  - "setuptools<81"
   - pip:
-      - nglview  
+      - "nglview<4"
